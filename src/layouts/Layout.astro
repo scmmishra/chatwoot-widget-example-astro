@@ -20,7 +20,7 @@ const { title } = Astro.props;
 	</body>
 	<script>
 		(function(d,t) {
-			var BASE_URL="https://app.chatwoot.com";
+			var BASE_URL="https://qa.chatwoot.app";
 			var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
 			g.src=BASE_URL+"/packs/js/sdk.js";
 			g.defer = true;
@@ -28,7 +28,7 @@ const { title } = Astro.props;
 			s.parentNode.insertBefore(g,s);
 			g.onload=function(){
 				window.chatwootSDK.run({
-					websiteToken: 'E8nKwGQBSzMyYAZcaqW5v95u',
+					websiteToken: 'jfRMfnAPQefbYUJqc7QLG7uB',
 					baseUrl: BASE_URL
 				})
 			}
